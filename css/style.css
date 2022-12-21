@@ -26,8 +26,7 @@ img {
 }
 
 
-/*CONTAINER*/
-
+/*? CONTAINER*/
 .container {
     width: 100%;
     float: left;
@@ -36,9 +35,7 @@ img {
     background-color: transparent;
 }
 
-
-/*BG-COLORS*/
-
+/*? BG-COLORS*/
 .bg-gradient {
     background: linear-gradient(to right, #ce2e3c, #da6709);
 }
@@ -52,15 +49,13 @@ img {
 }
 
 
-/*HELPERS*/
-
+/* ? HELPERS*/
 .radius {
     border-radius: 7px;
 }
 
 
-/*CABECALHO*/
-
+/* ? CABECALHO*/
 .logo {
     width: 50px;
     height: 50px;
@@ -91,10 +86,7 @@ img {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-
-
-/*MENU*/
-
+/* ? MENU*/
 .menu {
     width: 100%;
     height: 100%;
@@ -135,9 +127,7 @@ img {
     font-size: 3.5em;
 }
 
-
-/*BANNER*/
-
+/* ? BANNER*/
 .home {
     background-image: url(../img/01.jpg);
     height: 100vh;
@@ -155,7 +145,7 @@ img {
     color: #000;
     font-weight: 900;
     text-shadow: #fff 2px 2px 1px;
-    margin-top: 45%;
+    margin-top: 30%;
 }
 
 .title h3 {
@@ -249,9 +239,7 @@ img {
     line-height: 1.5em;
 }
 
-
-/*NEWSLETTER*/
-
+/* ?NEWSLETTER*/
 .newsletter h2 {
     font-size: 1.5em;
     color: #fff;
@@ -279,6 +267,7 @@ img {
     padding: 5%;
     cursor: pointer;
     margin-top: 2%;
+    margin-bottom: 15px;
 }
 
 .newsletter button:hover {
@@ -286,11 +275,10 @@ img {
 }
 
 
-/*RODAPÉ*/
-
+/* ?RODAPÉ*/
 .social-icons a {
-    font-size: 2.5em;
-    color: rgba(255, 255, 255, 0.7);
+    font-size: 2em;
+    color: #fff;
     margin-right: 3%;
 }
 
@@ -306,7 +294,14 @@ img {
     margin-top: 2%;
     color: #000;
     font-weight: 900;
+    font-size: 1em;
 }
+
+hr{
+    border: 1px solid #fff;
+    width: 70%;
+    margin: 10px auto;
+    }
 
 
 /*!MEDIA TYPES 
@@ -314,20 +309,7 @@ img {
 /* !Pra monitores ou dispositivos com telas coloridas e resolução adequada.
 
 *Print
-/*?Para impressoras. Muito usado para dar uma versão de impressão do site.
-
-*EXEMPLO
-!@media screen and (min-width: 320px) {
-.title h2 {
-    font-size: 2.5em;
-    color: red;
-    font-weight: 700;
-}
-.title h3 {
-    font-size: 1.5em;
-    color: blue;
-}
-}
+/*?Para impressoras. Muito usado para dar uma versão de impressão do site. */
 
 
 /* ?SMALL DEVICES - SMARTPHONES*/
@@ -367,11 +349,11 @@ img {
     }
     
     .newsletter h2 {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     .newsletter h3 {
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .newsletter input {
@@ -386,10 +368,10 @@ img {
         width: 50%;
         height: 10%;
         margin-left: 5%;
+        margin-bottom: 10px;
         padding: 2%;
         font-size: 1.5em;
-    }
-    
+    }   
 
     .servico {
         width: 30%;
@@ -409,14 +391,6 @@ img {
 
         display: flex;
         /** Alinhamento uma ao lado da outra*/        
-    }
-
-
-    
-    hr{
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        width: 70%;
-        margin: 10px auto;
     }
 }
 
@@ -465,12 +439,6 @@ img {
 
     .title h2{
         margin-top: 11%;
-    }
-
-    hr{
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        width: 70%;
-        margin: 10px auto;
-    }
+    }    
 
 }
